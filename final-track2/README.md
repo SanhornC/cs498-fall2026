@@ -13,6 +13,18 @@ preserving the input, output, and evaluation contracts.
 Read `final_track2_handout.pdf` for the complete assignment. All commands below
 run from this directory. Do not generate scenes.
 
+## Kaggle competition
+
+- Competition: https://www.kaggle.com/competitions/cs498-fall-2026-track2-reconstruction
+- **Join first** with the course invitation:
+  https://www.kaggle.com/t/27cd04d4d854493f9f8f45a814bb1cd5
+  Sign in to an individual Kaggle account whose verified email ends in
+  `illinois.edu`. The competition is private, so until you join through the
+  invitation the competition URL shows a 404 page; that is expected.
+- You upload only the generated Test CSV; the submission steps are in
+  section 5 below ("Kaggle, HF results and one small final course ZIP").
+  One submission per UTC day; teams are limited to one member.
+
 Deadline: **December 9, 2026, 11:59 p.m. America/Chicago**.
 
 ## Folder guide
@@ -249,12 +261,12 @@ Run the frozen method on all 20 Test inputs. Validate and export:
       --predictions outputs/my_method --split test \
       --output outputs/submission.csv --device cpu
 
-After the course opens access, first use
+First open
 [the course invitation](https://www.kaggle.com/t/27cd04d4d854493f9f8f45a814bb1cd5)
 with your individual Kaggle account. The restricted-access check uses an
 `illinois.edu` email address; follow Kaggle's email verification prompts.
-Before launch, a private-page/404 response is expected, not a data-download
-failure. After joining, upload the generated **plain CSV** to
+Before you join through the invitation, a private-page/404 response is expected,
+not a data-download failure. After joining, upload the generated **plain CSV** to
 [the Track 2 competition](https://www.kaggle.com/competitions/cs498-fall-2026-track2-reconstruction),
 accept the applicable rules, and check the final scoring status. Upload success
 alone is not a score. No course API token is needed; never submit credentials.

@@ -6,6 +6,17 @@ Release: Wednesday, November 4, 2026. Due December 9,
 The verified reference score is **0.65135**, at Kaggle's five-decimal display
 precision. This fixed benchmark does not need a leaderboard participant entry.
 
+## Kaggle competition
+
+- Competition: https://www.kaggle.com/competitions/cs498-fall-2026-multiview-occupancy
+- **Join first** with the course invitation:
+  https://www.kaggle.com/t/f04e3dce46f047c5b52deec9fbe73701
+  Sign in to a Kaggle account whose verified email ends in `@illinois.edu`.
+  The competition is private, so until you join through the invitation the
+  competition URL shows a 404 page; that is expected.
+- Submission steps: [KAGGLE_SUBMISSION.md](KAGGLE_SUBMISSION.md). Teams are limited
+  to one member (individual project).
+
 Predict a semantic occupancy grid from three synchronized views at one position:
 front-left, front, front-right. RGB is required, depth is optional. There is no
 video or temporal accumulation. The canonical output is an integer `(40,14,80)`

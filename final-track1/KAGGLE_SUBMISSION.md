@@ -1,8 +1,15 @@
 # Kaggle submission guide
 
-Competition: https://www.kaggle.com/c/cs498-fall-2026-semantic-occupancy
+Competition: https://www.kaggle.com/competitions/cs498-fall-2026-multiview-occupancy
 
-Join, accept the rules, and create an individual team `cs498-YOUR_NETID`.
+Course invitation (join here first): https://www.kaggle.com/t/f04e3dce46f047c5b52deec9fbe73701
+
+The competition is private. Open the invitation while signed in to a Kaggle
+account whose verified email address ends in `@illinois.edu`. Until you have
+joined this way, the plain competition URL shows a 404 page; that is expected
+and is not a data-download problem. After joining, accept the rules and compete
+as an individual (one-person team, e.g. `cs498-YOUR_NETID`; teams are limited to
+one member).
 Install API credentials using Kaggle's normal account setup, outside this folder.
 
 ## Self-service scoring

@@ -28,7 +28,7 @@ CLASSES = (
     "small_object",
     "other",
 )
-COMPETITION = "cs498-fall-2026-semantic-occupancy"
+COMPETITION = "cs498-fall-2026-multiview-occupancy"
 MODEL_CONFIG = {
     "triview_model": {
         "name": "lift_fuse_3d_unet",
